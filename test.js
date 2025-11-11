@@ -8,7 +8,7 @@ try {
 
     // ❌ Invalid tests
     assert.throws(() => convertToCelsius(["cold", "hot", 212]), /numbers/);       // Non-numeric input
-    // assert.throws(() => filterExtremeTemps([10, 20, 30], 50, 10), /greater/); // Invalid min-max relationship
+    assert.throws(() => filterExtremeTemps([10, 20, 30], 50, 10), /greater/); // Invalid min-max relationship
 
     // 💥 Intentional break test
     // assert.deepStrictEqual(convertToCelsius([32]), [100]); // Wrong assertion on purpose
