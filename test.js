@@ -37,7 +37,7 @@ const { convertToCelsius, filterExtremeTemps } = require('./main');
 
 console.log('\nTest 3 - Invalid Non-numeric Input:');
 try {
-    convertToCelsius(32);
+    convertToCelsius("main");
     console.log('FAIL: Should have thrown error');
 } catch (e) {
     console.log('PASS: Correctly threw error -', e.message);
