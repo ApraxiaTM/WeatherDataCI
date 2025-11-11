@@ -11,7 +11,7 @@ try {
     assert.throws(() => filterExtremeTemps([10, 20, 30], 50, 10), /greater/); // Invalid min-max relationship
 
     // 💥 Intentional break test
-    assert.deepStrictEqual(convertToCelsius([32]), [100]); // Wrong assertion on purpose
+    // assert.deepStrictEqual(convertToCelsius([32]), [100]); // Wrong assertion on purpose
 
 } catch (error) {
     console.error("Test failed:", error.message);
