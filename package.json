@@ -1,0 +1,12 @@
+{
+    "name": "weather-data-normalizer",
+    "version": "1.0.0",
+    "description": "Weather data normalization with unit tests",
+    "main": "main.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "keywords": ["weather", "temperature", "conversion", "testing"],
+    "author": "",
+    "license": "ISC"
+}
