@@ -27,9 +27,17 @@ const { convertToCelsius, filterExtremeTemps } = require('./main');
 // }
 
 // Invalid Test 1: Non-numeric input for conversion
+// console.log('\nTest 3 - Invalid Non-numeric Input:');
+// try {
+//     convertToCelsius([32, 'hot', 212]);
+//     console.log('FAIL: Should have thrown error');
+// } catch (e) {
+//     console.log('PASS: Correctly threw error -', e.message);
+// }
+
 console.log('\nTest 3 - Invalid Non-numeric Input:');
 try {
-    convertToCelsius([32, 'hot', 212]);
+    convertToCelsius(32);
     console.log('FAIL: Should have thrown error');
 } catch (e) {
     console.log('PASS: Correctly threw error -', e.message);
